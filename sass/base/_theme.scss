@@ -1,0 +1,24 @@
+$post-date-color: gray;
+$post-title-color: black;
+
+$footer-border: solid 1px lightgray;
+$footer-bg: transparent;
+$footer-color: #777;
+
+.post-date {
+	color: $post-date-color;
+}
+
+.entry-title > a {
+	color: $post-title-color;
+}
+
+.footer {
+	border-top: $footer-border;
+	background: $footer-bg;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 100px;
+	text-align: center;
+	color: $footer-color;
+}
