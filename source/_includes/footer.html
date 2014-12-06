@@ -1,1 +1,18 @@
-{% include custom/footer.html %}
+<div id="social-buttons">
+	{% if site.twitter_user %}
+	<a href="https://twitter.com/{{ site.twitter_user }}" class="btn-twitter"><i class="fa fa-twitter"></i></a>
+	{% endif %}
+	{% if site.googleplus_user %}
+	<a href="https://plus.google.com/{{ site.googleplus_user }}?rel=author" class="btn-google-plus"><i class="fa fa-google-plus"></i></a>
+	{% endif %}
+	{% if site.github_user %}
+  <a href="https://github.com/{{site.github_user}}" class="btn-github"><i class="fa fa-github"></i></a>
+  {% endif %}
+  {% if site.facebook_user %}
+  <a href="https://facebook.com/{{site.facebook_user}}" class="btn-facebook"><i class="fa fa-facebook"></i></a>
+  {% endif %}
+</div>
+
+<div class="info">
+	{% include custom/footer.html %}
+</div>

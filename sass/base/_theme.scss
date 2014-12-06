@@ -2,8 +2,12 @@ $post-date-color: gray;
 $post-title-color: black;
 
 $footer-border: solid 1px lightgray;
-$footer-bg: lightgray;
+$footer-bg: transparent;
 $footer-color: #777;
+
+.navbar-default {
+	font-weight: bold;
+}
 
 .post-date {
 	color: $post-date-color;
@@ -19,6 +23,41 @@ $footer-color: #777;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	margin-top: 100px;
-	text-align: center;
 	color: $footer-color;
+	text-align: center;
+
+	#social-buttons {
+		text-align:center;
+
+		a {
+			font-size: 25px;
+			margin-right: 10px;
+			color: $footer-color;
+
+			&:hover {
+				color: $link-hover-color;
+			}
+		}
+	}
+
+	.info {
+		line-height: 36px;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.footer {
+
+		#social-buttons {
+			float: left;
+		}
+
+		.info {
+			float: right;
+		}
+	}
+}
+
+.pagination {
+	display: block;
 }
