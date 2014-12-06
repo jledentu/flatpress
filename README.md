@@ -5,16 +5,18 @@ A flat design Octopress theme based on Bootstrap 3.
 
 # Installation
 
-Install the `bootstrap-sass` gem:
+Install the `bootstrap-sass` and `font-awesome-sass` gems:
 
 ```shell
-$ gem install bootstrap-sass
+$ gem install 'bootstrap-sass'
+$ gem install 'font-awesome-sass'
 ```
 
-Add this line in your `config.rb` file:
+Add these lines in your `config.rb` file:
 
 ```ruby
 require 'bootstrap-sass'
+require 'font-awesome-sass'
 ```
 
 And then execute this command in your octopress directory:

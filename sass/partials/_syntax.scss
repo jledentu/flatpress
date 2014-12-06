@@ -1,6 +1,6 @@
 .highlight, html .gist .gist-file .gist-syntax .gist-highlight {
 	table td.code { width: 100%; }
-	border:1px solid $pre-border-color !important;
+	//border:1px solid $pre-border-color !important;
 
 	@include border-bottom-left-radius($border-radius-base);
 	@include border-bottom-right-radius($border-radius-base);
@@ -13,6 +13,7 @@
 	padding: .8em !important;
 	border-right: solid 1px $pre-border-color;
 	@include border-radius(0);
+	background: darken($pre-bg, 3%);
 }
 
 figure.code, .gist-file, pre {

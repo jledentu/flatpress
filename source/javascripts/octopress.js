@@ -75,7 +75,6 @@ $('document').ready(function() {
   wrapFlashVideos();
   flashVideoFallback();
   addCodeLineNumbers();
-  getNav();
 });
 
 // iOS scaling bug fix

@@ -1,7 +1,16 @@
 .sharing {
+	margin-top: 20px;
+	overflow: hidden;
+
   p.meta + & {
     padding: { top: 1em; left: 0; }
   }
 }
 
 #fb-root { display: none; }
+
+.fb-like {
+	> span {
+		vertical-align: baseline!important;
+	}
+}
